@@ -11,19 +11,19 @@ footer: "ECL 2.0 Licensed | Copyright © [2024] [Йорж Макисм]"
 
 *студенти 2-го курсу, групи ІО-24*<span padding-right:5em></span> 
 
-**Йорж Максим [@maksirh]**
+**Йорж Максим [Telegram](https://t.me/maksirh)**
 
-**Бородавко Павло [@paste0]**
+**Бородавко Павло [Telegram](https://t.me/paste0)**
 
-**Дзюра Антон [@Anton_Dziura]**
+**Дзюра Антон [Telegram](https://t.me/Anton_Dziura)**
 
-**Довгань Максим [@rusnyahuynya]**
+**Довгань Максим [Telegram](https://t.me/rusnyahuynya)**
 
-**Каськов Євген [@evgenban]**
+**Каськов Євген [Telegram](https://t.me/evgenban)**
 
-**Маковецький Дмитро [@pechonueknugu]**
+**Маковецький Дмитро [Telegram](https://t.me/pechonueknugu)**
 
-**Ткаченко Михаїл [@Rafaaam]**
+**Ткаченко Михаїл [Telegram](https://t.me/Rafaaam)**
 
 
 
