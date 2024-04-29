@@ -127,72 +127,72 @@
   <tr>
     <td></td>
     <td align="left">Сповіщення</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟡</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Фільтрація даних</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟡</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Візуалізація даних</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Завантаження інформації</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🔴</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Обліковий запис користувача</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Відстеження активності у ЗМІ</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟡</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟡</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Відстеження активності у соцмережах</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟡</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td>Зручність (Usability)</td>
@@ -207,52 +207,52 @@
   <tr>
     <td></td>
     <td align="left">Мови</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>1</td>
+    <td>9</td>
+    <td>40+</td>
+    <td>6</td>
+    <td>3</td>
+    <td>2</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Вартість</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>0</td>
+    <td>Від 49$</td>
+    <td>0</td>
+    <td>Від $113</td>
+    <td>Від $214</td>
+    <td>Від $500</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Демо-доступ</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🔴</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Для людей з вадами</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🔴</td>
+    <td>🟡</td>
+    <td>🟢</td>
+    <td>🟡</td>
+    <td>🔴</td>
+    <td>🟡</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Інтуїтивний інтерфейс</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td>Надійність (Reliability)</td>
@@ -267,32 +267,32 @@
   <tr>
     <td></td>
     <td align="left">Захист інформації</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Двохфакторна аунтентифікація</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🔴</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🔴</td>
+    <td>🔴</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Авторитетні корпоративні клієнти</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td>Продуктивність (Performance)</td>
@@ -307,22 +307,22 @@
   <tr>
     <td></td>
     <td align="left">Оптимізація інтерфейсу</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟡</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Швидкість обробки даних</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td>Підтримка (Supportability)</td>
@@ -337,32 +337,32 @@
   <tr>
     <td></td>
     <td align="left">Служба підтримки</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟡</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Технічна документація</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🔴</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🔴</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Часті запитання та відповіді</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
-    <td>⚫</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
   </tr>
 </table>
 
@@ -377,7 +377,9 @@
 
 ## Висновки
 
-*[Робляться висновки щодо доцільності розробки нової або модифікації існуючої інформаційної системи, необхідності та способів інтеграції з системами(сервісами) третіх сторін, тощо.]*
+Після завершення аналізу предметної області можна зробити висновок, що аналіз медіа-контенту є важливим завданням у наш час. Медіа-контент впливає на багато аспектів нашого життя, включаючи журналістику, маркетинг, дослідження ринку та моніторинг громадської думки.
+
+Після оцінки існуючих інструментів стало очевидно, що для досягнення максимальної ефективності необхідно розробити нову інформаційну систему. Вона має зберегти всі переваги попередніх рішень, урахувати їх недоліки і впровадити нові функціональності для покращення роботи системи.
 
 ## Посилання
 
@@ -395,3 +397,15 @@
 12. [Аналіз часових рядів](https://www.sigmacomputing.com/resources/learn/what-is-time-series-analysis) *Sigma*
 13. [Обробка візуальних даних](https://www.alooba.com/skills/concepts/artificial-intelligence/visual-data-processing/) *alooba*
 14. [Аналіз і структурування контенту](https://ela.kpi.ua/server/api/core/bitstreams/5f42782b-05ee-44b9-a322-fa328eb0457e/content) *ela.kpi.ua*
+15. [Медіа](https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D1%96%D0%B0) *Wikipedia*
+16. [Контент-аналіз](https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82-%D0%B0%D0%BD%D0%B0%D0%BB%D1%96%D0%B7) *Wikipedia*
+17. [Система](https://uk.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0) *Wikipedia*
+18. [Засоби масової інформації (ЗМІ)](https://vue.gov.ua/%D0%97%D0%B0%D1%81%D0%BE%D0%B1%D0%B8_%D0%BC%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D1%97_%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%97_(%D0%97%D0%9C%D0%86)) gov.ua
+19. [Моніторинг](https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D1%96%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3) *Wikipedia*
+20. [Соціальна мережа](https://uk.wikipedia.org/wiki/%D0%A1%D0%BE%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D0%B0) *Wikipedia*
+21. [Semantrum](https://www.promo.semantrum.net/)
+22. [Social Blade](https://socialblade.com/)
+23. [Neticle Media Intelligence](https://neticle.com/mediaintelligence/hu)
+24. [Youscan](https://youscan.io/ua/)
+25. [Google Analytics](https://marketingplatform.google.com/about/analytics/)
+26. [HubSpot](https://www.hubspot.com/)
