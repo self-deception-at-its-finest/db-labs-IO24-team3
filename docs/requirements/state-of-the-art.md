@@ -113,6 +113,7 @@
     <th>HubSpot</th>
     <th>Semantrum</th>
     <th>Youscan</th>
+    <th>Наш проект</th>
   </tr>
   <tr>
     <td>Функціональність (Functionality)</td>
@@ -133,6 +134,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟡</td>
+    <td>🟡</td>
   </tr>
   <tr>
     <td></td>
@@ -143,10 +145,12 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟡</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Візуалізація даних</td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -163,6 +167,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
@@ -173,6 +178,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
+    <td>🟡</td>
   </tr>
   <tr>
     <td></td>
@@ -183,6 +189,7 @@
     <td>🟡</td>
     <td>🟢</td>
     <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
@@ -191,6 +198,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟡</td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -213,6 +221,7 @@
     <td>6</td>
     <td>3</td>
     <td>2</td>
+    <td>2</td>
   </tr>
   <tr>
     <td></td>
@@ -223,11 +232,13 @@
     <td>Від $113</td>
     <td>Від $214</td>
     <td>Від $500</td>
+    <td>0</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Демо-доступ</td>
     <td>🔴</td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -243,10 +254,12 @@
     <td>🟡</td>
     <td>🔴</td>
     <td>🟡</td>
+    <td>🔴</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Інтуїтивний інтерфейс</td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -273,6 +286,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
@@ -281,6 +295,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
+    <td>🔴</td>
     <td>🔴</td>
     <td>🔴</td>
   </tr>
@@ -293,6 +308,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
+    <td>🔴</td>
   </tr>
   <tr>
     <td>Продуктивність (Performance)</td>
@@ -313,10 +329,12 @@
     <td>🟢</td>
     <td>🟡</td>
     <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Швидкість обробки даних</td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -343,6 +361,7 @@
     <td>🟡</td>
     <td>🟢</td>
     <td>🟢</td>
+    <td>🟡</td>
   </tr>
   <tr>
     <td></td>
@@ -353,10 +372,12 @@
     <td>🟢</td>
     <td>🔴</td>
     <td>🟢</td>
+    <td>🟢</td>
   </tr>
   <tr>
     <td></td>
     <td align="left">Часті запитання та відповіді</td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
