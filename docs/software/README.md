@@ -4,6 +4,7 @@
 - SQL-скрипт для створення на початкового наповнення бази даних
 
 ```sql
+
 -- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
@@ -152,66 +153,25 @@ SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
--- -----------------------------------------------------
--- Data for table `mydb`.`user`
--- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
-INSERT INTO `mydb`.`user` (`id`, `name`, `login`, `password`, `email`, `role id`) VALUES (DEFAULT, 'name1', 'login1', 'password1', 'email1@gmail.com', 1);
-INSERT INTO `mydb`.`user` (`id`, `name`, `login`, `password`, `email`, `role id`) VALUES (DEFAULT, 'name2', 'login2', 'password2', 'email1@gmail.com', 2);
-INSERT INTO `mydb`.`user` (`id`, `name`, `login`, `password`, `email`, `role id`) VALUES (DEFAULT, 'name3', 'login3', 'password3', 'email1@gmail.com', 1);
-
-
-COMMIT;
-
--- -----------------------------------------------------
--- Data for table `mydb`.`request`
--- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
-INSERT INTO `mydb`.`request` (`id`, `name`, `description`, `created`, `meida_id`, `user_id`) VALUES (DEFAULT, 'Text search', '', '2024-05-18', 1,NULL);
-INSERT INTO `mydb`.`request` (`id`, `name`, `description`, `created`, `meida_id`, `user_id`) VALUES (DEFAULT, 'Video search', '', '2024-05-18', 2,NULL);
-
-
-COMMIT;
-
--- -----------------------------------------------------
--- Data for table `mydb`.`requestResult`
--- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
-INSERT INTO `mydb`.`requestResult` (`id`,`description`, `rating`, `request_id`, `user_id`) VALUES (DEFAULT, '', '',1,NULL);
-INSERT INTO `mydb`.`requestResult` (`id`,`description`, `rating`, `request_id`, `user_id`) VALUES (DEFAULT, '', '', 2,NULL);
-
-COMMIT;
-
--- -----------------------------------------------------
--- Data for table `mydb`.`requestResult`
--- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
-INSERT INTO `mydb`.`requestResult` (`id`,`description`, `rating`, `request_id`, `user_id`) VALUES (DEFAULT, '', '',1,NULL);
-INSERT INTO `mydb`.`requestResult` (`id`,`description`, `rating`, `request_id`, `user_id`) VALUES (DEFAULT, '', '', 2,NULL);
-
-COMMIT;
 
 -- -----------------------------------------------------
 -- Data for table `mydb`.`role`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`role` (`id`,`name`,`description`) VALUES (DEFAULT, 'user', 'desc1');
-INSERT INTO `mydb`.`role` (`id`,`name`,`description`) VALUES (DEFAULT, 'admin', 'desc2');
+INSERT INTO `mydb`.`role` (`id`,`name`,`description`) VALUES (1, 'user', 'desc1');
+INSERT INTO `mydb`.`role` (`id`,`name`,`description`) VALUES (2, 'admin', 'desc2');
 
 COMMIT;
 
 -- -----------------------------------------------------
--- Data for table `mydb`.`meida`
+-- Data for table `mydb`.`user`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`media` (`id`,`name`,`type`,`url`,`metadata`,`originalSource_id`) VALUES (DEFAULT, 'user1', 'name1','type1','url1','metadata1',NULL);
-INSERT INTO `mydb`.`media` (`id`,`name`,`type`,`url`,`metadata`,`originalSource_id`) VALUES (DEFAULT, 'user1', 'name2','type2','url2','metadata2',NULL);
+INSERT INTO `mydb`.`user` (`id`, `name`, `login`, `password`, `email`, `role_id`) VALUES (1, 'name1', 'login1', 'password1', 'email1@gmail.com', 1);
+INSERT INTO `mydb`.`user` (`id`, `name`, `login`, `password`, `email`, `role_id`) VALUES (2, 'name2', 'login2', 'password2', 'email1@gmail.com', 1);
+INSERT INTO `mydb`.`user` (`id`, `name`, `login`, `password`, `email`, `role_id`) VALUES (3, 'name3', 'login3', 'password3', 'email1@gmail.com', 1);
 
 COMMIT;
 
@@ -220,16 +180,44 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`originalSource_id` (`id`,`name`,`type`,`url`,`rating`) VALUES (DEFAULT, 'user1', 'name1','type1','url1',NULL);
-INSERT INTO `mydb`.`originalSource_id` (`id`,`name`,`type`,`url`,`rating`) VALUES (DEFAULT, 'user2', 'name2','type2','url2',NULL);
+INSERT INTO `mydb`.`originalSource` (`id`,`name`,`type`,`url`,`rating`) VALUES (1, 'name1','type1','url1',NULL);
+INSERT INTO `mydb`.`originalSource` (`id`,`name`,`type`,`url`,`rating`) VALUES (2, 'name2','type2','url2',NULL);
+
+COMMIT;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`meida`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`media` (`id`,`name`,`type`,`url`,`metadata`,`originalSource_id`) VALUES (1, 'name1','type1','url1','metadata1',1);
+INSERT INTO `mydb`.`media` (`id`,`name`,`type`,`url`,`metadata`,`originalSource_id`) VALUES (2,  'name2','type2','url2','metadata2',1);
 
 COMMIT;
 
 
+-- -----------------------------------------------------
+-- Data for table `mydb`.`request`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`request` (`id`, `name`, `description`, `created`, `media_id`, `user_id`) VALUES (1, 'Text search', 'desc', '2024-05-18', 1,1);
+INSERT INTO `mydb`.`request` (`id`, `name`, `description`, `created`,`media_id`, `user_id`) VALUES (2, 'Video search', 'desc', '2024-05-18', 2,2);
+
+
+COMMIT;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`requestResult`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`requestResult` (`id`,`description`, `rating`, `request_id`, `user_id`) VALUES (1, 'desc1', 'rait1',1,1);
+INSERT INTO `mydb`.`requestResult` (`id`,`description`, `rating`, `request_id`, `user_id`) VALUES (2, 'desc2', 'rait2', 2,2);
+
+COMMIT;
 
 ```
-
-
 
 - RESTfull сервіс для управління даними
 
