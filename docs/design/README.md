@@ -20,7 +20,7 @@ User.id --* User
 entity Role  #FFFFFF
 entity Role.id  #FFFFFF
 entity Role.name  #FFFFFF
-entity Role.grants #FFFFFF
+
 
 Role.id-u-* Role
 Role.name-u-* Role
