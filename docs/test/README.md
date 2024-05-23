@@ -1,4 +1,41 @@
 # Тестування працездатності системи
 
-*В цьому розділі необхідно вказати засоби тестування, навести вихідні коди тестів та результати тестування.*
+## Тестування REST API
 
+### GET
+
+#### Пошук 
+![alt text](./images/userid.png)
+
+
+### POST 
+#### Перед запитом
+![alt text](./images/allrequest.png)
+
+#### Запит
+![alt text](./images/addrequest.png)
+
+#### Після запиту
+![alt text](./images/allrequestafter.png)
+
+### PUT
+
+#### Перед запитом
+![alt text](./images/allusers.png)
+
+#### Запит
+![alt text](./images/updateuser.png)
+
+#### Після запиту
+![alt text](./images/allusersafter.png)
+
+### DELETE
+
+#### Перед запитом
+![alt text](./images/allusersafter.png)
+
+#### Запит
+![alt text](./images/deleteuser.png)
+
+#### Після запиту
+![alt text](./images/allusersafter2.png)
